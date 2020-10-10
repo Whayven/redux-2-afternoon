@@ -13,7 +13,7 @@ class Nav extends Component {
         <div className="user-info">
           {firstName} {lastName}
           <img src="./peterquill.jpg" alt="" className='photo' />
-          <a href='http://localhost:4000/auth/logout'><button className='btn btn-md btn-outline-dark mr-4'>logout</button></a>
+          <a href='http://localhost:5000/auth/logout'><button className='btn btn-md btn-outline-dark mr-4'>logout</button></a>
         </div>
       </div>
     )
